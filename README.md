@@ -64,7 +64,9 @@ source .venv/bin/activate
 
 #### Linux
 ```sh
-# You may need to run sudo apt-get install python3-venv first
+# You may need to run sudo apt-get install python3-venv and apt-get install build-essential first
+pip install wheel
+pip install attrdict
 python3 -m venv .venv
 source .venv/bin/activate
 ```
